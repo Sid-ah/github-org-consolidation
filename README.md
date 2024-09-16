@@ -25,16 +25,10 @@ This script automates the consolidation of multiple GitHub organizations into a 
 
 1. **Clone the Repository**: Clone this repository or copy the `index.js` script into a new directory.
 
-2. **Initialize a Node.js Project**:
+2. **Install Dependencies**:
 
    ```bash
-   npm init -y
-   ```
-
-3. **Install Dependencies**:
-
-   ```bash
-   npm install @octokit/rest @octokit/plugin-throttling @octokit/plugin-retry dotenv
+   npm install 
    ```
 
 ## Configuration

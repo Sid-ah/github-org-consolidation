@@ -6,10 +6,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sid-ah",
   "license": "ISC",
-  "description": "",
+  "description": "This script automates the consolidation of multiple GitHub organizations into a single target organization. It transfers repositories, migrates teams and permissions, invites members, migrates webhooks, updates repository settings, verifies the migration, and decommissions the source organizations.",
   "dependencies": {
+    "@octokit/plugin-retry": "^7.1.1",
+    "@octokit/plugin-throttling": "^9.3.1",
+    "@octokit/rest": "^21.0.2",
     "dotenv": "^16.4.5"
   }
 }
